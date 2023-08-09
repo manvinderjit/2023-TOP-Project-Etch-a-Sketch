@@ -2,6 +2,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 div#container {
@@ -9,6 +10,7 @@ div#container {
     flex-wrap: wrap;
     min-height: 300px;
     min-width: 300px;
+    flex-shrink: 0;
 }
 
 .divSquare {
