@@ -3,19 +3,20 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
+    gap: 30px;
 }
 
 div#container {
     display: flex;
     flex-wrap: wrap;
-    min-height: 300px;
-    min-width: 300px;
+    height: 400px;
+    width: 400px;
     flex-shrink: 0;
 }
 
 .divSquare {
-    height: auto;
-    width: 6.25%;    
+    height: auto;    
 }
 
 .divSquareRegular {
