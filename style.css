@@ -15,6 +15,13 @@ div#container {
 
 .divSquare {
     height: auto;
-    width: 6.25%;
+    width: 6.25%;    
+}
+
+.divSquareRegular {
     background-color: antiquewhite;    
+}
+
+.divSquareHovered {
+    background-color: hotpink;
 }
